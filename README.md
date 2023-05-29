@@ -1,2 +1,0 @@
-# IE343
-Project
