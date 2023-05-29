@@ -1,4 +1,4 @@
-1\. Explanation of the part in the code written by us: 
+A\. Explanation of the part in the code written by us: 
 The part we added to the code is the implementation of the simulated annealing
 process using the while loop. The loop generates neighbour solutions by flipping
 the selection of items, evaluates their value and then decides whether
@@ -8,7 +8,7 @@ convergence. The best solution found throughout the iterations is kept
 and printed at the end. We also made some additions so that we can
 observe the execution time for Q1 using "java.lang.System" package.
 
-2\. Answers to the questions given:
+B\. Answers to the questions given:
 
 1\. How does the execution time change when the cooling rate is
 increased?
