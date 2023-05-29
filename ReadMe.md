@@ -1,6 +1,6 @@
-1\. Explanation of the part in the code written by us: The part we added
-to the code is the implementation of the simulated annealing process
-using the while loop. The loop generates neighbour solutions by flipping
+1\. Explanation of the part in the code written by us: 
+The part we added to the code is the implementation of the simulated annealing
+process using the while loop. The loop generates neighbour solutions by flipping
 the selection of items, evaluates their value and then decides whether
 to accept them according to the acceptance probability. This process
 continues until the temperature reaches a considered low value, pointing
