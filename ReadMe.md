@@ -20,10 +20,12 @@ cooling rate and our conclusions are as follows:
  - The execution time of simulated annealing depends on the number of
 iterations performed. The cooling rate affects how quickly the
 temperature decreases, which in turn affects the convergence rate of the
-algorithm.  - A higher cooling rate means faster convergence, which
+algorithm.  
+- A higher cooling rate means faster convergence, which
 means that less iterations are required to find a solution. But, a
 higher cooling rate may also require more iterations to achieve the
-desired solution quality.  - The relationship between cooling rate and
+desired solution quality.  
+- The relationship between cooling rate and
 execution time is neither black nor white. It is possible that a higher
 cooling rate can lead to faster and slower execution times, depending on
 the problem.
@@ -40,10 +42,12 @@ after making the modifications we made to the code so that we can
 observe the cooling rate and our conclusions are as follows:
 
  - When the temperature difference increases, the execution time usually
-increases.  - A larger temperature difference means more exploration in
+increases.  
+- A larger temperature difference means more exploration in
 the first stages of the annealing process, which can increase the time
-required to converge to the optimal solution.  - But, a larger
-temperature difference also means a wider exploration range, possibly
-leading to better solution.  - It\'s essential to balance by choosing an
+required to converge to the optimal solution.  
+- But, a larger temperature difference also means a wider exploration range, possibly
+leading to better solution.  
+- It's essential to balance by choosing an
 appropriate temperature difference based on the problem details and
 desired solution quality.
